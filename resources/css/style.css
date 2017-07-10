@@ -1,1 +1,236 @@
-2
+p {
+    font-size: 17px;
+    color: black;
+}
+
+/*--------------------*/
+
+#top {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    position: fixed;
+    z-index: 1;
+    height: 69px;
+    background-color: white;
+    width: 99%;
+}
+
+.flex-item {
+    display: flex;
+    align-items: flex-end;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo {
+    padding: 5px;
+}
+
+#name {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    padding: 10px;
+    color: mediumaquamarine;
+}
+
+.flex-item a {
+    color: black;
+}
+
+/*--------------------*/
+
+.column {
+    display: flex;
+    flex-direction: row;
+    padding-top: 69px;
+    font-family: Georgia;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+}
+
+.row {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+/*--------------------*/
+
+.large {
+    width: 630px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+}
+
+#Main-Story {
+    background-image: url("../images/Main-Story.png");
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: auto;
+    height: 300px;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+
+#Fall-Season {
+    background-image: url("../images/Fall-Season.png");
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+#Hipster-Cameraman {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-image: url("../images/Hipster-Cameraman.png");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+/*--------------------*/
+
+.medium {
+    width: 300px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+}
+
+#Cat-CEO {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-image: url("../images/Cat-CEO.png");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+/*--------------------*/
+
+.small {
+    width: 240px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+}
+
+.small .article-list {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.small h2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#Menu {
+    display: flex;
+    width: inherit;
+}
+
+.article-list .flex-item {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+}
+
+.flex-item p {
+    background-color: WhiteSmoke;
+    font-family: Verdana;
+    font-size: 12px;
+    color: DimGray;
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding: 1em;
+    width: 100%;
+}
+
+/*--------------------*/
+
+footer {
+    background-color: MediumAquamarine;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bottom {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana;
+    font-size: 12px;
+    margin: 0;
+}
+
+#title {
+    display: inline;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+#title h4 {
+    border-right: 2px solid white;
+    padding-right: 2em;
+    margin: 0;
+}
+
+#first {
+    display: inline-flex;
+    margin: 0;
+
+}
+
+#second {
+    margin: 0;
+}
+
+
+
+
+
+
