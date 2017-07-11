@@ -18,6 +18,7 @@ p {
     height: 69px;
     background-color: white;
     width: 99%;
+    top: 0;
 }
 
 .flex-item {
